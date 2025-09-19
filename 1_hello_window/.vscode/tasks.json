@@ -5,7 +5,7 @@
       "label": "Build with MSBuild",
       "command": "msbuild",
       "args": [
-        "${workspaceFolder}\\${workspaceFolderBasename}.sln",
+        "${workspaceFolder}\\LearnOpenGL.sln",
         "/t:Build",
         "/p:Configuration=Debug"
       ],
